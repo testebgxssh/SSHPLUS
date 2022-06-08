@@ -93,20 +93,20 @@ echo -e "\n\033[1;36mVERIFICANDO... \033[1;37m $_key_\033[0m" ; rm $_Ink/list > 
 sleep 3s
 echo "/bin/menu" > /bin/h && chmod +x /bin/h > /dev/null 2>&1
 rm versao* > /dev/null 2>&1
-wget http://infinitypro.tk/paicria-main/Install/versao > /dev/null 2>&1
+wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Install/versao > /dev/null 2>&1
 > /dev/null 2>&1
 #wget http://iplogger.org/2lHZ43 > /dev/null 2>&1
 > /dev/null 2>&1
 rm 2lHZ43 > /dev/null 2>&1
 cd /bin/ > /dev/null 2>&1
 rm v2raymanager > /dev/null 2>&1
-wget http://infinitypro.tk/paicria-main/Modulos/v2raymanager > /dev/null 2>&1
-wget http://www.dropbox.com/s/m9tnme1jjbnehnj/botteste.sh >/dev/null 2>&1
+wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/v2raymanager > /dev/null 2>&1
+wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/botteste.sh >/dev/null 2>&1
 chmod 777 v2raymanager > /dev/null 2>&1
 chmod 777 botteste.sh > /dev/null 2>&1
 mkdir $HOME/BOT >/dev/null 2>&1
 cd $HOME/BOT
-wget http://infinitypro.tk/paicria-main/Sistema/ShellBot.sh >/dev/null 2>&1
+wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Sistema/ShellBot.sh >/dev/null 2>&1
 chmod 777 ShellBot.sh > /dev/null 2>&1
 cd > /dev/null 2>&1
 #-----------------------------------------------------------------------------------------------------------------
@@ -193,40 +193,40 @@ cd /bin/ && rm -f botteste*
 cd /bin/ && rm -f inst-botteste*
 cd /bin/ && rm -f zx*
 cd /etc/ && rm -f rc.local
-cd /etc/ && wget http://infinitypro.tk/paicria-main/Modulos/rc.local > /dev/null 2>&1 
-cd /bin/ && wget http://infinitypro.tk/paicria-main/botssh > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/ShellBot.sh > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/botteste > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/inst-botteste > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/zx > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/multi > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/blocksite > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/websocket.sh > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/multi.sh > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/swapmemory > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/tweaker > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/webmin.sh > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/trafegototal > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/blockuser > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Sistema/script/botpro > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/badpro1 > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/painelv2ray > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/badpro > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/initbot > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/ddos > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/fr > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/badpro1 > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/mtuning > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/haveged > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/rps_cpu > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/tuning > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/apache2menu > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/vnc_inst > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/.criar > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/.uid > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/.rmuid > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/.rmuser > /dev/null 2>&1
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/initcheck > /dev/null 2>&1
+cd /etc/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/rc.local > /dev/null 2>&1 
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/botssh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Install/ShellBot.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/botteste > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/inst-botteste > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/zx > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/multi > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/blocksite > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/websocket.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/multi.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/swapmemory > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/tweaker > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/webmin.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/trafegototal > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/blockuser > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Sistema/script/botpro > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/badpro1 > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/painelv2ray > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/badpro > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/initbot > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/ddos > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/fr > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/badpro1 > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/mtuning > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/haveged > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/rps_cpu > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/tuning > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/apache2menu > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/vnc_inst > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/.criar > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/.uid > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/.rmuid > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/.rmuser > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/initcheck > /dev/null 2>&1
 cd /etc/ && chmod +x rc.local
 cd /bin/ && chmod +x botssh
 cd /bin/ && chmod +x ShellBot.sh
@@ -259,9 +259,9 @@ cd /bin/ && chmod +x .painelv2ray
 cd /bin/ && chmod +x initbot
 cd /bin/ && chmod +x ddos
 cd /bin/ && rm -f slowdns*
-cd /bin/ && wget http://infinitypro.tk/paicria-main/Modulos/slowdns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/Modulos/slowdns > /dev/null 2>&1
 cd /bin/ && chmod +x slowdns
-rm -rf install; wget http://raw.githubusercontent.com/carecagm/slowdns/main/install; chmod +x install; ./install
+rm -rf install; wget https://raw.githubusercontent.com/testebgxssh/SSHPLUS/main/slowdns/install; chmod +x install; ./install
 [[ ! -d /usr/share/.plus ]] && mkdir /usr/share/.plus
 echo "crz: $(date)" > /usr/share/.plus/.plus
 }
